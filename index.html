@@ -10,12 +10,57 @@
     </style>
 </head>
 <body>
-    <div class="header">
+    <script>
+        class transport{
+            constructor(color, model){
+                this.color = color;
+                this.model = model;
+            }
+        }
 
-    </div>
-    <div class="main">
+        class train extends transport{
+            constructor(color, model){
+                super(color, model);
+            }
+            riding(){
+                return 'the train travels by rail';
+            }
+        }
+        class bus extends transport{
+            constructor(color, model){
+                super(color, model);
+            }
+            riding(){
+                return 'the bus goes on the roads';
+            }
+        }
 
-    </div>
+        class plane extends transport{
+            constructor(color, model, wingLength){
+                super(color, model);
+                this.wingLength = wingLength;
+            }
+            flight(){
+                return 'the plane is flying in the sky';
+            }
+        }
 
+        const train1 = new train("grey", "model-2312");
+        console.log('train color:', train1.color);
+        console.log('train model:', train1.model);
+        console.log('riding:', train1.riding());
+        
+        const bus1 = new bus("red", "BMW",);
+        console.log('bus color:', bus1.color);
+        console.log('bus model:', bus1.model);
+        console.log('riding:', bus1.riding());
+        
+        const plane1 = new plane("white", "Boeing","65m");
+        console.log('plane color:', plane1.color);
+        console.log('plane model:', plane1.model);
+        console.log('train model:', plane1.wingLength);
+        console.log('flight:', plane1.flight());
+        
+    </script>
 </body>
 </html>
