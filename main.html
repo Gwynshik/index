@@ -21,10 +21,11 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 50px;
+            padding-left: 100px;
+            padding-right: 100px;
             font-weight: 400;
-            color: #0D47A1;
-            font-size: 50px;
+            color: #0d3672;
+            font-size: 40px;
             font-family: 'Times New Roman';
         }
         .buttonsHeader{
@@ -40,7 +41,61 @@
             background-color: white;
             border-radius: 5px;
             border: 2px solid white;
-            color: #0D47A1;
+            color: #0d3672;
+        }
+        .main{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 100px;
+            padding-top: 50px;
+            gap: 50px;
+        }
+        .contentBlock{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        #image{
+            width: 70%;
+
+        }
+        h1{
+            font-weight: 400;
+            color: #0d3672;
+            font-size: 50px;
+            font-family: 'Times New Roman';
+        }
+        .contentText{
+            color: #0d3672;
+            font-size: 20px;
+            font-family: 'Times New Roman';
+        }
+        .counter{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #0d3672;
+            font-weight: 1000;
+            font-size: 50px;
+            font-family: 'Times New Roman';
+            gap: 5px;
+        }
+        .designations{
+            font-weight: 100;
+            font-size: 30px;
+        }
+        #btnMain{
+            width: 150px;
+            height: 50px;
+            font-size: 15px;
+            background-color: rgb(201, 103, 37);
+            border-radius: 25px;
+            border: 2px solid rgb(201, 103, 37);
+            text-transform: uppercase;
+            color: white;
         }
     </style>
 </head>
@@ -58,33 +113,33 @@
     <div class="main">
         <div class="contentBlock">
             <h1>Coming Soon</h1>
-            <span>Lorem ipsum dolor sit amet, dffdfd consetds sadiduelitr, sed diamfg frgrrhj lorem ipsum</span>
+            <span class="contentText">Lorem ipsum dolor sit amet, dffdfd consetds sadiduelitr, sed diamfg frgrrhj lorem ipsum</span>
             <div class="timer">
-                <div class="count">
+                <div class="counter">
                     <div class="days">
-                        <p class="numbers">13</p>
+                        <p class="numbers">13 :</p>
                         <span class="designations">days</span>
                     </div>
-                    :
+
                     <div class="days">
-                        <p class="numbers">13</p>
+                        <p class="numbers">19 :</p>
                         <span class="designations">hour</span>
                     </div>
-                    :
+
                     <div class="days">
-                        <p class="numbers">13</p>
+                        <p class="numbers">44 :</p>
                         <span class="designations">min</span>
                     </div>
-                    :
+
                     <div class="days">
-                        <p class="numbers">13</p>
+                        <p class="numbers">16</p>
                         <span class="designations">sec</span>
                     </div>
                 </div>
             </div>
             <button id="btnMain" type=button>Notify Me</button>
         </div>
-        <img src="https://media.discordapp.net/attachments/964871361539489802/974753167940141106/young-girl-studying-at-her-room-concept-free-vector.jpg?width=1056&height=676">
+        <img id=image src="https://media.discordapp.net/attachments/964871361539489802/974753167940141106/young-girl-studying-at-her-room-concept-free-vector.jpg?width=1056&height=676">
 
     </div>
 </body>
