@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.welcome-back{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.bg-image{
+    height: 100%;
+}
+#img-basketball-player{
+    height: 100%;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+span{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #636364;
+}
+p{
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(197, 195, 195);
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn-password{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+#btn-sign-in{
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #EA454C;
+    border-radius: 12px;
+    border: 2px solid #EA454C;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn-sign-in-google{
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #636364;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+#img-google{
+    width: 30px;
+    height: 30px;
+}
+.Remember{
+    display: flex;
+    gap: 15px;
+}
+.checkbox{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+#forgot-password-link{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    color: #181818;
+    text-decoration: none;
+    cursor: pointer;
+}
+.text-checkbox{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    color: #181818;
+}
+.account{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 10px;
+    color: #636364;
+}
+.sign-up-link{
+    color: brown;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 10px;
+    cursor: pointer;
+}
