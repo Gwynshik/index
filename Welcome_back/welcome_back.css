@@ -13,7 +13,7 @@ html, body {
     display: flex;
     align-items: center;
 }
-.welcome-back{
+.welcome-back-wrapper{
     width: 50%;
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@ html, body {
     flex-direction: column;
     gap: 15px;
 }
-.bg-image{
+.bg-image-wrapper{
     height: 100%;
 }
 #img-basketball-player{
@@ -63,7 +63,7 @@ input {
     flex-direction: column;
     gap: 10px;
 }
-.btn-password{
+.btn-password-wrapper{
     width: 300px;
     display: flex;
     justify-content: space-between;
